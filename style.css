@@ -1,0 +1,42 @@
+body,
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.first {
+  display: grid;
+}
+
+section {
+  width: 100%;
+  height: 100vh;
+}
+
+section.second {
+  background-color: #121212;
+  opacity: 1;
+}
+.pin-text {
+  position: relative;
+  justify-content: center;
+  align-items: center;
+}
+.text {
+  text-align: center;
+  font-size: 150px;
+  color: #fff;
+  text-transform: uppercase;
+  scale: 1;
+}
+section.third {
+  background-color: black;
+  z-index: 11;
+}
+.card {
+  position: absolute;
+  margin-top: 150px;
+}
